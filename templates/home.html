@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="pb-3 text-center">tutorial</h1>
+
+<div class="row justify-content-center flex-fill">
+  <div class="col-md-10">
+    <p class="lead">Contains a simple <code>blog</code> application with a <code>Post</code> model to which we will add comments by using <strong>django-contrib-comments</strong> and <strong>django-comments-xtd</strong>.</p>
+    <p class="my-3 text-center">Continue to the <a href="{% url 'blog:post-list' %}">blog</a>.</p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+[
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Story number 1",
+        "slug": "story-number-1",
+        "body": "Integer nec consequat mi. In rhoncus in tellus nec congue. Phasellus vel interdum elit, a laoreet eros. Aenean egestas at libero ac dignissim. Proin vel felis nec velit euismod dictum. Praesent nec viverra mi. Donec eu pulvinar odio, vitae ornare leo. Praesent posuere, metus nec porttitor dictum, eros velit dictum sem, nec rutrum arcu purus ac mauris. Pellentesque sed volutpat tortor, eu semper mi. Proin fringilla cursus dui, non pellentesque metus.\r\n\r\nMorbi nunc est, posuere sit amet justo et, mattis viverra felis. Phasellus eget nibh justo. Nam posuere velit ex, eu consectetur lacus auctor vitae. Nullam lorem quam, volutpat vel euismod et, aliquam ut leo. Sed augue risus, fermentum eu sapien vitae, vehicula sodales est. Nulla efficitur justo turpis, eget efficitur quam scelerisque sit amet. Sed sed consectetur sem. Aliquam pellentesque ultricies feugiat. Donec maximus odio sed ante posuere, sit amet hendrerit mauris sollicitudin.\r\n\r\nNullam at consequat metus. Nunc vel sodales libero. Maecenas imperdiet quam ut nibh semper tempus. In tincidunt nec risus ultricies porta. In vitae neque vel mauris malesuada viverra non nec mi. Duis non accumsan quam, vitae lacinia sapien. Nunc eros leo, pulvinar at auctor vel, iaculis a ante. Aliquam in convallis velit. Vivamus dapibus elementum tellus vitae molestie. Sed lobortis sapien tellus, at fermentum velit ultricies et. Nam sed faucibus justo. In scelerisque tempor diam, vitae luctus turpis semper in.",
+	"status": "PUB",
+        "publish": "2013-07-14T15:15:52Z",
+        "allow_comments": "True"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Story number 2",
+        "slug": "story-number-2",
+        "body": "Phasellus id orci risus. Nullam malesuada justo tortor, vel bibendum augue ultricies in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque vitae quam ipsum. Donec tristique elementum elit ac convallis. Nullam at vehicula velit. Aliquam ac magna risus. In hac habitasse platea dictumst. Duis mollis ex et condimentum blandit.\r\n\r\nUt at massa vulputate, dapibus nulla eu, malesuada erat. Nulla velit felis, viverra in tempus aliquam, vehicula lacinia augue. Aliquam volutpat sed velit sed euismod. Morbi in tortor scelerisque justo accumsan posuere in vitae felis. Maecenas volutpat lectus a nibh aliquam lobortis. Nam condimentum viverra tincidunt. Nam odio libero, egestas feugiat blandit vel, bibendum a eros. Nulla mi mi, scelerisque at cursus quis, porta sit amet nunc. Nunc urna elit, luctus quis risus sed, pulvinar suscipit leo. In vel tempor erat. In hac habitasse platea dictumst. Nulla imperdiet mauris elit, vel volutpat enim scelerisque a. Phasellus tincidunt turpis et erat iaculis viverra. Fusce vehicula sagittis tellus, sed tempor ex molestie eu.\r\n\r\nDonec fringilla nisi est, sit amet rutrum arcu rhoncus eu. Vivamus sed accumsan neque. Mauris id urna id nibh tristique condimentum eget vitae orci. Donec a tincidunt odio. Aenean felis mauris, ullamcorper dictum ultricies a, facilisis vel velit. Fusce non eleifend massa. Cras ac mi venenatis elit vulputate pulvinar eget lacinia ex.",
+	"status": "PUB",
+        "publish": "2014-07-14T14:23:11Z",
+        "allow_comments": "True"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Story number 3",
+        "slug": "story-number-3",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut ex ac lectus iaculis laoreet in vitae nisl. Nullam at est urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac nulla ut urna maximus dignissim ac eget libero. Cras fermentum massa in diam congue, sit amet placerat magna dapibus. Nullam mattis magna augue, ut pharetra lacus porta vel. Nulla ornare felis et purus tempor, eu congue nisl pretium.\r\n\r\nNulla posuere, tellus ac tristique efficitur, orci purus vehicula turpis, sit amet tincidunt mi odio vitae eros. Donec gravida tempor massa, vitae pretium lectus varius laoreet. Ut sed tellus in turpis sodales interdum. Donec id justo quis tortor volutpat blandit. Nulla facilisi. Nulla a quam arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ut ultrices tellus. Proin sollicitudin, elit a pulvinar venenatis, magna est vestibulum eros, eu consectetur arcu diam id mi. Etiam mollis felis a auctor ultrices.",
+        "status": "PUB",
+        "publish": "2015-07-14T14:23:15Z",
+        "allow_comments": "True"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "Story number 4",
+        "slug": "story-number-4",
+        "body": "Donec dui lectus, consequat eget blandit a, varius sed tellus. Sed vitae cursus orci, et luctus velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent iaculis nunc a augue posuere interdum. Ut auctor accumsan dictum. Sed vitae rutrum tortor, sed dictum nunc. Proin vulputate vulputate ante et consequat. Phasellus dignissim placerat velit pretium tristique. Phasellus accumsan convallis eros, non accumsan nibh facilisis sed. Proin interdum nulla nec neque dignissim, in convallis justo laoreet. Sed non nunc dignissim, dapibus sem a, pharetra lacus. Fusce id pretium lorem.\r\n\r\nMaecenas vitae metus non ante bibendum tincidunt. Nam vulputate arcu nec varius elementum. Aliquam pellentesque tortor dolor, non varius quam blandit quis. Aenean id pellentesque dui. Donec a fringilla odio, quis sollicitudin enim. Maecenas mollis viverra ornare. Proin dictum purus nunc, a elementum nunc ultrices et. Fusce feugiat, velit mollis finibus laoreet, libero leo tempus quam, in faucibus magna augue eu erat. Donec tristique sodales sagittis. Aenean rutrum in odio at eleifend. Nullam a ullamcorper ante. Nunc suscipit sagittis ex, et pretium erat porta sit amet. Integer sollicitudin quis nisi id dictum.",
+        "status": "PUB",
+        "publish": "2016-07-14T14:30:45Z",
+        "allow_comments": "True"
+    }
+}
+]

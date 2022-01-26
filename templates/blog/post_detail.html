@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load comments %}
+
+{% block title %}{{ object.title }}{% endblock %}
+
+{% block content %}
+<div class="pb-3">
+  <h1 class="text-center">{{ object.title }}</h1>
+  <p class="small text-center">{{ object.publish|date:"l, j F Y" }}</p>
+</div>
+<div>
+  {{ object.body|linebreaks }}
+</div>
+<!-- <div class="pt-4 text-center">
+  <a href="{% url 'blog:post-list' %}">Back to the post list</a>
+</div> -->
+{% get_comment_count for object as comment_count %}
+<div class="py-4 text-center">
+  <a href="{% url 'blog:post-list' %}">Back to the post list</a>
+  &nbsp;&sdot;&nbsp;
+  {{ comment_count }} comment{{ comment_count|pluralize }}
+  ha{{ comment_count|pluralize:"s,ve" }} been posted.
+</div>
+
+{% if comment_count %}
+<hr/>
+<div class="comments">
+  {% render_comment_list for object %}
+</div>
+{% endif %}
+
+
+{% if object.allow_comments %}
+<div class="card card-block mb-5">
+  <div class="card-body">
+    <h4 class="card-title text-center pb-3">Post your comment</h4>
+      {% render_comment_form for object %}
+  </div>
+</div>
+{% endif %}
+{% endblock %}
