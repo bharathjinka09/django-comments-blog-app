@@ -67,6 +67,28 @@ COMMENTS_XTD_FROM_EMAIL = "bharathjinka66@gmail.com"
 # Contact mail address to show in messages.
 COMMENTS_XTD_CONTACT_EMAIL = "bharathjinka66@gmail.com"
 
+# Disable confirm email for comments
+COMMENTS_XTD_CONFIRM_EMAIL = False
+
+# Enable this managers to confirm comment from admin panel 
+
+# MANAGERS = (
+#     ('bharath', 'bharathjinka66@gmail.com'),
+# )
+
+
+COMMENTS_XTD_MAX_THREAD_LEVEL = 3  # default is 0
+
+COMMENTS_XTD_LIST_ORDER = ('-thread_id', 'order')  # default is ('thread_id', 'order')
+
+COMMENTS_XTD_APP_MODEL_OPTIONS = {
+    'blog.post': {
+        'allow_flagging': True,
+        'allow_feedback': True,
+        'show_feedback': True,
+    }
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
